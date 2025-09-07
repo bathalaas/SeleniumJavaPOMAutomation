@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<!-- <packages> <package name="testcases" /> </packages> -->
+		<classes>
+			<class name="testcases.TC001_InventoryManagement" />
+			<class name="testcases.TC002_OpsCenter_MenuPages" />
+			<class name="testcases.TC003_Verify_CustomerCommunicationLinks" />
+			<class name="testcases.TC004_Quality_MenuPages" />
+			<class name="testcases.TC005_Trainingplus_MenuPages" />
+			<class name="testcases.TC006_Administration_MenuPages" />
+			<class name="testcases.TC007_Reporting_MenuPages" />
+			<class name="testcases.TC0021_WorkAssignmentAndEscalation" />
+			<class name="testcases.TC023_DashboardPages" />
+			<class name="testcases.TC0022_WorkAssignment_CallLogVerification" />
+			<class name="testcases.TC0023_WorkAssignment_JobDetailsPageVerification" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

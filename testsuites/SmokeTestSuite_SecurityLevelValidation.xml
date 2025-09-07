@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="SecurityTest">
+		<!-- <packages> <package name="testcases" /> </packages> -->
+		<classes>
+			<class name="testcases.TC011_SecurityLevel_SupervisorUser" />
+			<class name="testcases.TC012_SecurityLevel_InstallerUser" />
+			<class name="testcases.TC013_SecurityLevel_UtilityManagerUser" />
+			<class name="testcases.TC014_SecurityLevel_ReadOnlyUser" />
+			<class name="testcases.TC015_SecurityLevel_AdministratorUser" />
+			<class name="testcases.TC016_SecurityLevel_WarehouseManagerUser" />
+			<class name="testcases.TC017_SecurityLevel_QAManagerUser" />
+			<class name="testcases.TC018_SecurityLevel_QAAnalystUser" />
+			<class name="testcases.TC019_SecurityLevel_PrintCompanyUser" />
+			<class name="testcases.TC020_SecurityLevel_CallCenterManager" />
+			<class name="testcases.TC021_SecurityLevel_CallCenterOperator" />
+			<class name="testcases.TC022_SecurityLevel_OperationsManager" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
